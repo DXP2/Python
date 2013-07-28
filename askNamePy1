@@ -1,0 +1,17 @@
+## DevinXP2
+## www.dxp2software.com
+## 12:53AM on Saturday July 27th, 2013
+
+## Script to get the user's first and last name and echo it back to the output
+
+## Ask the user to input their first name
+helloOne = "Hello, what is your first name? \n"
+firstName = raw_input(helloOne)
+
+## Ask the user to input their last name
+reqLastName = "And... your last name is? \n"
+lastName = raw_input(reqLastName)
+
+## Combine the user's first and last names and echo it to the output display in shell along with greeting msg
+bothNames = "Nice to meet you " + firstName + ' ' + lastName + '!'
+print bothNames
